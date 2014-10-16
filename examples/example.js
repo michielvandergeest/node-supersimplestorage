@@ -15,8 +15,9 @@ storage.save('foo', data, function() {
 
 		// modify content
 		content['foobar'] = 'foobar';
-		storage.save('foo.bar', content, function() {
+		storage.save('foo.bar', content, function(result) {
 			console.log('saved!');
+			console.log(result);
 		})
 
 	}, function(error) {

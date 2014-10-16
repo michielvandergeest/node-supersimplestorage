@@ -1,6 +1,6 @@
 {
   "name": "supersimplestorage",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "SuperSimpleStorage - A simple persistance layer library to store and retrieve data in Node.js without using a full blown database.",
   "main": "lib/supersimplestorage.js",
   "scripts": {
